@@ -4,8 +4,8 @@ const Banner = () => {
   return (
     <>
       <div className='bg-[#F5F7FA] py-6'>
-        <div className='max-w-6xl mx-auto flex justify-between items-center w-[1002px] h-[416.67px]'>
-          <div>
+        <div className='max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-0'>
+          <div className="md:w-1/2 mb-6 md:mb-0">
             <h1 className='font-semibold text-[45px] leading-[52.9px] text-[#4D4D4D]'>
               <span> Lessons and insights</span> <br />{' '}
               <span className='text-[#4caf4f] font-semibold text-[44.55px]  '>
@@ -18,7 +18,7 @@ const Banner = () => {
             </p>
             <button className='Brand-primary-button mt-6'>Register</button>
           </div>
-          <div>
+          <div className="md:w-1/2 flex justify-center md:justify-end">
             <img
               src={banner}
               alt='Banner'

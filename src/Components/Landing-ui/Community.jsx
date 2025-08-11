@@ -4,7 +4,7 @@ import communityLogo3 from '../../assets/Community/Icon (3).png'
 
 const Community = () => {
   return (
-    <div className='max-w-7xl mx-auto py-[32px] justify-between  '>
+    <div className='max-w-7xl mx-auto py-8 px-4'>
       <h1 className='font-semibold text-[#4D4D4D] text-center text-[25.06px] leading-[30.63px] tracking-[0%]'>
         <span>Manage your entire community</span>
         <br />

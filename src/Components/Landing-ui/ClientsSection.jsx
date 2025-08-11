@@ -37,20 +37,20 @@ const ClientsSection = () => {
     },
   ]
   return (
-    <div className='max-w-7xl mx-auto py-[32px] '>
+    <div className='max-w-7xl mx-auto py-8 px-4'>
       <h1 className='font-semibold text-[25.06px] tracking-[0%] text-center text-[#4D4D4D]'>
         Our Clients
       </h1>
-      <p className='font-normal text-[11.14px] text-center leading-[25.71px] text-[#717171] '>
+      <p className='font-normal text-[11.14px] leading-[25.71px] text-center text-[#717171] mt-2'>
         We have been working with some Fortune 500+ clients
       </p>
-      <div className='flex justify-center items-center gap-[7rem] flex-wrap mt-6'>
+      <div className="flex flex-wrap justify-center items-center gap-16 mt-6">
         {clientLogo.map((logo) => (
           <img
             key={logo.id}
             src={logo.image}
             alt='client logo'
-            className='w-[33.41px] h-[33.41px]'
+            className="w-[33.41px] h-[33.41px] object-contain"
           />
         ))}
       </div>

@@ -2,7 +2,7 @@ import PixelgradeJourneyLogo from '../../assets/Pixelgrade/pixelgrade.png'
 
 const PixelgradeJourney = () => {
   return (
-    <div className='max-w-6xl mx-auto py-12 px-4 '>
+    <div className='max-w-6xl mx-auto py-12 px-4'>
       <div className='flex flex-col md:flex-row items-stretch justify-center space-x-32'>
         <div>
           <img
