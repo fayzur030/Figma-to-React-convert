@@ -1,0 +1,44 @@
+.primary-button {
+  background-color: #4caf4f;
+  width: 133.25px;
+  height: 36.49px;
+  border-radius: 2.78px;
+  color: #ffffff;
+  line-height: 16.71px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  font-size: 11.14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.Brand-primary-button {
+  background-color: #4caf4f;
+  width: 89.55px;
+  height: 36.49px;
+  border-radius: 2.78px;
+  color: #ffffff;
+  line-height: 16.71px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  font-size: 11.14px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 9.74px;
+  padding-right: 22.27px;
+  padding-bottom: 9.74px;
+  padding-left: 22.27px;
+}
+
+.btn {
+  background-color: #ffffff;
+  font-weight: 600px;
+  line-height: 19.49px;
+  font-size: 13.92px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #4caf4f;
+  width: 155px;
+  height: 31.14px;
+  padding: 5.57px;
+  gap: 5.57px;
+}
