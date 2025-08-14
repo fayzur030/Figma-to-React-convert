@@ -29,16 +29,16 @@ const ContentParagraph = () => {
     },
   ]
   return (
-    <div className='bg-[#F5F7FA] w-full'>
-      <div className=' max-w-6xl mx-auto flex justify-around items-center mt-[7.5rem] w-[1002.34px] h-[271.47px]'>
-        <div>
+    <div className='bg-[#F5F7FA] w-full py-16'>
+      <div className='max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center md:justify-around px-4 md:px-0 gap-8 md:gap-0'>
+        <div className='flex-shrink-0'>
           <img
             src={ContentParagraphLogo}
             alt=''
-            className='w-[226.92px] h-[226.92px]'
+            className='w-56 h-56 md:w-[226.92px] md:h-[226.92px] object-contain'
           />
         </div>
-        <div className='w-[520.66px] h-[226.39px]'>
+        <div className='flex flex-col items-center md:items-start text-center md:text-left w-full md:w-[520.66px] px-4 sm:px-0'>
           <p className='font-medium text-[11.14px] leading-[16.71px] text-[#717171] text-center md:text-left'>
             Maecenas dignissim justo eget nulla rutrum molestie. Maecenas
             lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu
@@ -51,14 +51,14 @@ const ContentParagraph = () => {
             Quisque vulputate odio neque, eget efficitur libero condimentum id.
             Curabitur id nibh id sem dignissim finibus ac sit amet magna.
           </p>
-          <p className='font-bold text-[13.92px] text-[#4CAF4F] leading-[19.49px]'>
+          <p className='font-bold text-[14px] md:text-[13.92px] text-[#4CAF4F] mt-4'>
             Tim Smith
           </p>
-          <p className='font-normal text-[11.14px] leading-[16.71px] text-[#89939E]'>
+          <p className='font-normal text-[11px] md:text-[11.14px] leading-6 text-[#89939E]'>
             British Dragon Boat Racing Association
           </p>
           <div>
-            <div className='flex justify-between items-center  w-[343.16px] h-[33.41px] gap-[30.54px] mt-7'>
+            <div className='flex flex-wrap md:flex-nowrap justify-center md:justify-start items-center gap-4 mt-7'>
               {logo.map((logo) => (
                 <img
                   key={logo.id}
@@ -67,7 +67,7 @@ const ContentParagraph = () => {
                   className='w-[33.41px] h-[33.41px]'
                 />
               ))}
-              <div className='flex items-center justify-center '>
+              <div className='flex items-center gap-2 mt-2 md:mt-0'>
                 <button className='btn'>Meet all customers</button>
                 <ArrowRight className='text-[#4CAF4F]' size={18} />
               </div>

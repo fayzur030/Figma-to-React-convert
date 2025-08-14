@@ -1,7 +1,7 @@
 import { ArrowRight } from 'lucide-react'
 const Demo = () => {
   return (
-    <div className='bg-[#F5F7FA] w-full'>
+    <div className='bg-[#F5F7FA] w-full md:text-left px-4 sm:px-0'>
       <div className='max-w-6xl mx-auto flex flex-col justify-center items-center mt-[2.5rem] h-[438.53px] text-center'>
         <h1 className='font-bold text-center text-[44.55px] leading-[52.5px]'>
           {' '}

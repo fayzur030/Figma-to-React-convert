@@ -11,7 +11,7 @@ const HelpingLocalBusiness = () => {
             Helping a local <br />
             <span className='text-[#4CAF4F]'>business reinvent itself</span>
           </h1>
-          <p className='text-[#18191F] text-sm'>
+          <p className='text-[#18191F] text-[12px] md:text-[16px] sm:text-[12px] leading-[18px] md:leading-[24px]'>
             We reached here with our hard work and dedication
           </p>
         </div>
